@@ -1,6 +1,6 @@
 {
   "name": "less-write-http-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "server.js",
   "bin": "server.js",
   "scripts": {
@@ -16,7 +16,9 @@
   },
   "pkg": {
     "scripts": "server.js",
-    "assets": ["dist/**/*"],
+    "assets": [
+      "dist/**/*"
+    ],
     "targets": [
       "node16-win-x64",
       "node16-linux-x64"
